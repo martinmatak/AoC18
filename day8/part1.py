@@ -5,7 +5,6 @@ with open(fname) as f:
 content = [x.strip() for x in content]
 
 
-# parent must be finished before children can begin
 class Node(object):
     def __init__(self):
         self.header_children = None
